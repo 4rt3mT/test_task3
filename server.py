@@ -13,6 +13,8 @@ def threaded_first(conn):
     key = randint(0, 1000000)
 
     # Чтение users.txt и преобразование полученных данных в массив users_list
+    file = open("users.txt", "w")
+    file.close()
     file = open("users.txt", "r")
     users_list = [eval(line.strip()) for line in file]
     file.close()
