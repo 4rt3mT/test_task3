@@ -9,6 +9,7 @@ HOWTO Server
 
 Проблемы:
 - Не работает KeyboardInterrupt у сервера
+- Если нет файла users.txt выдает исключение
 
 HOWTO Client
 
